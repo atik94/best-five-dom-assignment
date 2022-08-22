@@ -33,7 +33,7 @@
                     <img src="images/Rectangle.png" class="card-img-top" alt="..." />
                     <div class="card-body">
                       <h5 class="card-title">Lionel Messi</h5>
-                      <button type="button" class="btn btn-primary px-5">SELECT</button>
+                      <button type="button" onclick="addToPlayer(this)" class="btn btn-primary px-5">SELECT</button>
                     </div>
                   </div>
                 </div>
@@ -42,7 +42,7 @@
                     <img src="images/Rectangle1.png" class="card-img-top" alt="..." />
                     <div class="card-body">
                       <h5 class="card-title">Vítor Machado</h5>
-                      <button type="button" class="btn btn-primary px-5">SELECT</button>
+                      <button type="button" onclick="addToPlayer(this)" class="btn btn-primary px-5">SELECT</button>
                     </div>
                   </div>
                 </div>
@@ -51,7 +51,7 @@
                     <img src="images/Rectangle2.png" class="card-img-top" alt="..." />
                     <div class="card-body">
                       <h5 class="card-title">Neymar Jr</h5>
-                      <button type="button" class="btn btn-primary px-5">SELECT</button>
+                      <button type="button" onclick="addToPlayer(this)" class="btn btn-primary px-5">SELECT</button>
                     </div>
                   </div>
                 </div>
@@ -60,7 +60,7 @@
                     <img src="images/Rectangle3.png" class="card-img-top" alt="..." />
                     <div class="card-body">
                       <h5 class="card-title">Sergio Ramos</h5>
-                      <button type="button" class="btn btn-primary px-5">SELECT</button>
+                      <button type="button" onclick="addToPlayer(this)" class="btn btn-primary px-5">SELECT</button>
                     </div>
                   </div>
                 </div>
@@ -69,7 +69,7 @@
                     <img src="images/Rectangle4.png" class="card-img-top" alt="..." />
                     <div class="card-body">
                       <h5 class="card-title">Kylian Mbappé</h5>
-                      <button type="button" class="btn btn-primary px-5">SELECT</button>
+                      <button type="button" onclick="addToPlayer(this)" class="btn btn-primary px-5">SELECT</button>
                     </div>
                   </div>
                 </div>
@@ -78,7 +78,7 @@
                     <img src="images/Rectangle5.png" class="card-img-top" alt="..." />
                     <div class="card-body">
                       <h5 class="card-title">Renato Sanches</h5>
-                      <button type="button" class="btn btn-primary px-5">SELECT</button>
+                      <button type="button" onclick="addToPlayer(this)" class="btn btn-primary px-5">SELECT</button>
                     </div>
                   </div>
                 </div>
@@ -87,12 +87,8 @@
             <div class="col-lg-4">
               <div class="row">
                 <h2>Selected - V</h2>
-                <div class="card" style="width: 18rem" ;>
-                  <ul class="list-group list-group-flush">
-                    <li class="list-group-item">An item</li>
-                    <li class="list-group-item">A second item</li>
-                    <li class="list-group-item">A third item</li>
-                  </ul>
+                <div class="card text-dark" style="width: 18rem" ;>
+                  <ol id="container" class="list-group list-group-flush"></ol>
                 </div>
               </div>
               <div class="row mt-3">
@@ -145,5 +141,6 @@
       integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
       crossorigin="anonymous"
     ></script>
+    <script src="js/player.js"></script>
   </body>
 </html>
