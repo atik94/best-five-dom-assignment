@@ -33,7 +33,13 @@
                     <img src="images/Rectangle.png" class="card-img-top" alt="..." />
                     <div class="card-body">
                       <h5 class="card-title">Lionel Messi</h5>
-                      <button type="button" onclick="addToPlayer(this)" class="btn btn-primary px-5">SELECT</button>
+                      <button
+                        type="button"
+                        onclick="addToPlayer(this);this.disabled=true;style.backgroundColor='#A2A9AF';"
+                        class="btn btn-primary px-5"
+                      >
+                        SELECT
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -42,7 +48,13 @@
                     <img src="images/Rectangle1.png" class="card-img-top" alt="..." />
                     <div class="card-body">
                       <h5 class="card-title">Vítor Machado</h5>
-                      <button type="button" onclick="addToPlayer(this)" class="btn btn-primary px-5">SELECT</button>
+                      <button
+                        type="button"
+                        onclick="addToPlayer(this);this.disabled=true;style.backgroundColor='#A2A9AF';"
+                        class="btn btn-primary px-5"
+                      >
+                        SELECT
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -51,7 +63,13 @@
                     <img src="images/Rectangle2.png" class="card-img-top" alt="..." />
                     <div class="card-body">
                       <h5 class="card-title">Neymar Jr</h5>
-                      <button type="button" onclick="addToPlayer(this)" class="btn btn-primary px-5">SELECT</button>
+                      <button
+                        type="button"
+                        onclick="addToPlayer(this);this.disabled=true;style.backgroundColor='#A2A9AF';"
+                        class="btn btn-primary px-5"
+                      >
+                        SELECT
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -60,7 +78,13 @@
                     <img src="images/Rectangle3.png" class="card-img-top" alt="..." />
                     <div class="card-body">
                       <h5 class="card-title">Sergio Ramos</h5>
-                      <button type="button" onclick="addToPlayer(this)" class="btn btn-primary px-5">SELECT</button>
+                      <button
+                        type="button"
+                        onclick="addToPlayer(this);this.disabled=true;style.backgroundColor='#A2A9AF';"
+                        class="btn btn-primary px-5"
+                      >
+                        SELECT
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -69,7 +93,13 @@
                     <img src="images/Rectangle4.png" class="card-img-top" alt="..." />
                     <div class="card-body">
                       <h5 class="card-title">Kylian Mbappé</h5>
-                      <button type="button" onclick="addToPlayer(this)" class="btn btn-primary px-5">SELECT</button>
+                      <button
+                        type="button"
+                        onclick="addToPlayer(this);this.disabled=true;style.backgroundColor='#A2A9AF';"
+                        class="btn btn-primary px-5"
+                      >
+                        SELECT
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -78,7 +108,13 @@
                     <img src="images/Rectangle5.png" class="card-img-top" alt="..." />
                     <div class="card-body">
                       <h5 class="card-title">Renato Sanches</h5>
-                      <button type="button" onclick="addToPlayer(this)" class="btn btn-primary px-5">SELECT</button>
+                      <button
+                        type="button"
+                        onclick="addToPlayer(this);this.disabled=true;style.backgroundColor='#A2A9AF';"
+                        class="btn btn-primary px-5"
+                      >
+                        SELECT
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -104,7 +140,7 @@
                   />
                 </div>
                 <button id="calculate-btn" type="button" class="btn btn-primary w-50 mt-3">Calculate</button>
-                <h5 class="mt-3">Player Expenses: $<span id="player-expense">5000</span></h5>
+                <h5 class="mt-3">Player Expenses: $<span id="player-expense"></span></h5>
                 <div class="d-flex mt-4">
                   <label for="">Manager</label>
                   <input
@@ -128,7 +164,7 @@
                 <button id="calculate-total" type="button" class="btn btn-primary w-50 mt-3 mb-3">
                   Calculate Total
                 </button>
-                <h5>Total <span class="ms-5">$11000</span></h5>
+                <h5>Total <span id="total" class="ms-5">$</span></h5>
               </div>
             </div>
           </div>
